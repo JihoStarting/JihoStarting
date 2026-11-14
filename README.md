@@ -17,7 +17,7 @@
 
 ## Tentang saya
 
-Proyek saya biasanya berawal dari rasa penasaran, lalu dirapikan sampai layak dipakai orang lain. Dua yang paling saya banggakan saat ini: sebuah pendamping AI yang hidup di desktop, dan sebuah toolchain untuk menerjemahkan game PSP.
+Proyek saya biasanya berawal dari rasa penasaran, lalu dirapikan sampai layak dipakai orang lain. Beberapa yang paling saya banggakan: pendamping AI yang hidup di desktop, toolchain untuk menerjemahkan game PSP, dan perangkat IoT untuk memantau tanaman.
 
 - Sedang mengerjakan: **Iris**, pendamping AI desktop
 - Baru selesai: **Haganai Patch Tools**, toolchain patch teks Inggris untuk game PSP
@@ -29,12 +29,14 @@ Proyek saya biasanya berawal dari rasa penasaran, lalu dirapikan sampai layak di
 |---|---|---|
 | [**iris-desktop-companion**](https://github.com/JihoStarting/iris-desktop-companion) | Pendamping AI berbentuk avatar VRM yang tampil sebagai overlay di desktop. Bisa bicara dengan suara VOICEVOX, mengenali suara, dan menjalankan tugas di PC lewat Hermes Agent dengan konfirmasi untuk tugas yang berisiko. | Electron, FastAPI, Python, JavaScript, VRM |
 | [**haganai-patch-tools**](https://github.com/JihoStarting/haganai-patch-tools) | Toolchain reverse engineering untuk menyuntikkan teks dan UI bahasa Inggris ke *Boku wa Tomodachi ga Sukunai Portable* (PSP). Parser container GPDA, rebuilder seekmap, dan patcher EBOOT. | Python |
+| [**bayam-iot**](https://github.com/JihoStarting/bayam-iot) | Sistem monitoring tanaman bayam berbasis IoT. ESP32 membaca suhu, kelembapan udara, dan kondisi cahaya, menampilkannya di layar OLED, dan mengirim laporan ke Telegram Bot. Proyek kelompok untuk UAS Pengantar IoT. | C++, ESP32, PlatformIO, Telegram Bot API |
 
 ## Teknologi
 
-- **Bahasa:** Python, JavaScript, PowerShell, Dart
+- **Bahasa:** Python, JavaScript, C++, PowerShell, Dart
 - **Framework:** Electron, FastAPI, Flutter
-- **Alat:** Git, WSL2, PPSSPP, HxD, QuickBMS
+- **Hardware dan IoT:** ESP32, sensor DHT11, OLED SSD1306, Telegram Bot API
+- **Alat:** Git, PlatformIO, WSL2, PPSSPP, HxD, QuickBMS
 - **Platform kerja:** Windows dengan WSL2
 
 ## Pencapaian terbaru
