@@ -2,12 +2,14 @@
 
 # Halo, saya KangJiho
 
-**Mengutak-atik software, reverse engineering, dan proyek hobi yang jadi serius.**
+**Membangun alat kecil yang berguna: dari reverse engineering game sampai pendamping AI di desktop.**
 
 ![GitHub](https://img.shields.io/badge/GitHub-JihoStarting-181717?logo=github)
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows%20%2B%20WSL2-0078D6?logo=windows&logoColor=white)
 
 </div>
 
@@ -15,34 +17,35 @@
 
 ## Tentang saya
 
-Saya membangun alat kecil yang menyelesaikan masalah nyata, dari toolchain reverse engineering sampai aplikasi desktop dan mobile. Kebanyakan proyek saya berawal dari rasa penasaran, lalu dirapikan sampai layak dipakai orang lain.
+Proyek saya biasanya berawal dari rasa penasaran, lalu dirapikan sampai layak dipakai orang lain. Dua yang paling saya banggakan saat ini: sebuah pendamping AI yang hidup di desktop, dan sebuah toolchain untuk menerjemahkan game PSP.
 
-- Sedang mengerjakan: aplikasi pendamping desktop (`iris-desktop-companion`)
-- Baru selesai: toolchain patch teks Inggris untuk game PSP (`haganai-patch-tools`)
+- Sedang mengerjakan: **Iris**, pendamping AI desktop
+- Baru selesai: **Haganai Patch Tools**, toolchain patch teks Inggris untuk game PSP
 - Suka: reverse engineering, otomasi, dan dokumentasi yang rapi
 
 ## Proyek unggulan
 
 | Proyek | Deskripsi | Teknologi |
 |---|---|---|
+| [**iris-desktop-companion**](https://github.com/JihoStarting/iris-desktop-companion) | Pendamping AI berbentuk avatar VRM yang tampil sebagai overlay di desktop. Bisa bicara dengan suara VOICEVOX, mengenali suara, dan menjalankan tugas di PC lewat Hermes Agent dengan konfirmasi untuk tugas yang berisiko. | Electron, FastAPI, Python, JavaScript, VRM |
 | [**haganai-patch-tools**](https://github.com/JihoStarting/haganai-patch-tools) | Toolchain reverse engineering untuk menyuntikkan teks dan UI bahasa Inggris ke *Boku wa Tomodachi ga Sukunai Portable* (PSP). Parser container GPDA, rebuilder seekmap, dan patcher EBOOT. | Python |
-| [**iris-desktop-companion**](https://github.com/JihoStarting/iris-desktop-companion) | Aplikasi pendamping desktop. | (isi sesuai proyek) |
 
 ## Teknologi
 
-- **Bahasa:** Python, Dart
-- **Framework:** Flutter
-- **Alat:** Git, PowerShell, PPSSPP, HxD, QuickBMS
-- **Platform kerja:** Windows
+- **Bahasa:** Python, JavaScript, PowerShell, Dart
+- **Framework:** Electron, FastAPI, Flutter
+- **Alat:** Git, WSL2, PPSSPP, HxD, QuickBMS
+- **Platform kerja:** Windows dengan WSL2
 
 ## Pencapaian terbaru
 
-- Menyelesaikan toolchain patch Haganai Portable: dialog dan narasi 22.693 instruksi terjemahan, 93,1% berhasil diinjeksi ke game, dan kotak teks 3 baris lewat patch EBOOT.
+- **Haganai Patch Tools:** 93,1% instruksi terjemahan (21.128 dari 22.693) berhasil diinjeksi ke game, lengkap dengan kotak teks 3 baris lewat patch EBOOT. Dikerjakan 7 Agustus sampai 24 Oktober 2026.
+- **Iris:** overlay desktop dengan avatar VRM, suara, dan integrasi agen, dikembangkan sejak 28 Oktober 2026.
 
 ---
 
 <div align="center">
 
-Terima kasih sudah mampir. Kalau ada proyek yang menarik, silakan buka issue atau pull request.
+Terima kasih sudah mampir. Kalau ada proyek yang menarik, silakan buka issue.
 
 </div>
